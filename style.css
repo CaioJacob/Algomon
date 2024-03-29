@@ -1,0 +1,84 @@
+/* Body Styles */
+body {
+    background-color: #0b6623; /* Sets the background colour of the body to a dark green */
+    color: #333333; /* Sets the text colour to a dark gray */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Specifies a font stack for the text content */
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none; /* Removes the default list styling from the navigation menu */
+    margin: 0; /* Sets margins of the navigation list to zero for consistent spacing */
+    padding: 0; /* Sets padding of the navigation list to zero for consistent spacing */
+}
+
+nav ul li {
+    display: inline; /* Styles list items within the navigation menu to be displayed inline */
+    margin-right: 20px; /* Adds a right margin of 20px to each list item for spacing */
+}
+
+nav ul li a {
+    color: #ffaa00; /* Sets the colour of anchor links within the navigation menu to golden */
+    text-decoration: none; /* Removes text decoration from anchor links */
+}
+
+/* Navigation Hover Effect */
+nav ul li a:hover {
+    color: #00ff00; /* Changes the colour of anchor links to bright green when hovered over */
+}
+
+/* Container Styles */
+.container {
+    width: 80%; /* Sets the width of the container to 80% of its parent element */
+    margin: 0 auto; /* Centers the container horizontally using auto margins */
+    padding: 20px; /* Adds padding to the container for spacing */
+    background-color: #fff; /* Sets a white background colour for the container */
+    border-radius: 10px; /* Applies a border radius of 10px to give it rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adds a box shadow to give it a raised appearance */
+}
+
+/* Heading Styles */
+h1 {
+    color: #ff4500; /* Sets the colour of h1 headings to reddish-orange */
+    text-align: center; /* Aligns the text in the heading to the center */
+    font-family: 'Arial Black', sans-serif; /* Specifies a font stack for the heading */
+}
+
+/* GIF Container Styles */
+.gif-container {
+    text-align: center; /* Centers the content within the GIF container */
+}
+
+.gif-container img {
+    display: inline-block; /* Styles images to be displayed inline-block */
+    width: 300px; /* Sets the width of images within the GIF container */
+    height: 300px; /* Sets the height of images within the GIF container */
+    margin: 0 20px; /* Adds margins to images for spacing */
+}
+
+/* Image Container Styles */
+.image-container {
+    text-align: center; /* Centers the content within the image container */
+}
+
+.image-container img {
+    display: inline-block; /* Styles images to be displayed inline-block */
+    width: 300px; /* Sets the width of images within the image container */
+    height: 200px; /* Sets the height of images within the image container */
+    margin: 10px; /* Adds margins to images for spacing */
+}
+
+/* Paragraph Styles */
+p {
+    text-align: justify; /* Justifies the text within paragraphs */
+    margin-bottom: 20px; /* Adds a bottom margin of 20px to paragraphs for spacing */
+}
+
+/* Unordered List Styles */
+ul {
+    margin-left: 20px; /* Adds a left margin of 20px to unordered lists */
+}
+
+ul li {
+    list-style-type: disc; /* Styles list items within unordered lists to have a disc list-style type */
+}
